@@ -142,7 +142,7 @@ echo "<script>alert('Algo deu errado. Por favor, tente novamente.');</script>";
 
                                 <div class="form-group">
     <label for="whatsapp">Número de WhatsApp:</label>
-    <input type="number" id="whatsapp" name="whatsapp" maxlength="11" pattern="\d{11}" class="form-control" required>
+    <input type="text" id="whatsapp" name="whatsapp" maxlength="11" pattern="\d{11}" class="form-control" required>
     <small>Digite o número apenas  11 dígitos  exemplo : (99)991002233.</small>
 </div>
                                 

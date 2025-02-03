@@ -1,13 +1,18 @@
-<?php include_once('includes/config.php');
+<?php 
+
+
+include_once('includes/config.php');
  if(isset($_POST['submit'])){
 $gname=$_POST['gname'];
 $emailid=$_POST['emailid'];
 $cname=$_POST['cname'];
 $cage=$_POST['agegroup'];
 $vtime=$_POST['visittime'];
+$whatsapp = $_POST['whatsapp'];
 $message=$_POST['message'];
 
-$query=mysqli_query($con,"insert into tblvisitor(gurdianName,gurdianEmail,childName,childAge,message,visitTime) values('$gname','$emailid','$cname','$cage','$message','$vtime')");
+$query=mysqli_query($con,"insert into tblvisitor(gurdianName,gurdianEmail,childName,childAge,whatsapp,message,visitTime) 
+values('$gname','$emailid','$cname','$cage','$whatsapp','$message','$vtime')");
 if($query){
 echo "<script>alert('Detalhes enviados com sucesso.');</script>";
 echo "<script type='text/javascript'> document.location = 'index.php'; </script>";
@@ -251,6 +256,13 @@ while($result=mysqli_fetch_array($query)){
                                         <input type="datetime-local" id="visittime" name="visittime" required>
                                     </div>
                                 </div>
+
+                          
+                                <div class="form-group">
+    <label for="whatsapp">Número de WhatsApp:</label>
+    <input type="text" id="whatsapp" name="whatsapp" maxlength="11" pattern="\d{11}" class="form-control" required>
+    <small>Digite o número apenas  11 dígitos  exemplo : (99)991002233.</small>
+</div>
 
                                 <div class="col-12">
                                     <div class="form-floating">

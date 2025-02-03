@@ -31,7 +31,7 @@ echo "<script>alert('Algo deu errado. Por favor, tente novamente.');</script>";
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sistema de Matrícula Pré-Escolar | Adicionar Professor</title>
+  <title>Sistema de Matrícula para creche  | Adicionar Professor</title>
 
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="../plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">

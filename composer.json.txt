@@ -1,0 +1,686 @@
+{
+    "require": {
+        "php": "^7.4 || ^8.0"
+    }
+}
+
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> heroku login -i
+heroku: Enter your login credentialsEmail: vitiello.j1994@aluno.ifsc.edu.br
+Password: *************
+ »   Error: Your account has MFA 
+ »   enabled; API requests using basic 
+ »   authentication with email and 
+ »   password are not supported. Please
+ »    generate an authorization token 
+ »   for API access. 
+ »
+ »   Error ID: vaas_enrolled
+PS C:\xampp\htdocs\Projeto2-PHP> heroku login -i
+heroku: Enter your login credentials
+Email: vitiello.j1994@aluno.ifsc.edu.br
+Password: **
+ »   Error: Invalid credentials provided.
+ »
+ »   Error ID: unauthorized
+PS C:\xampp\htdocs\Projeto2-PHP> heroku login-i
+ »   Warning: login-i is not a heroku command.
+Did you mean login? [y/n]:
+ »   Error: Run heroku help for a list of available commands.
+PS C:\xampp\htdocs\Projeto2-PHP> heroku login -i
+heroku: Enter your login credentials
+Email: vitiello.j1994@aluno.ifsc.edu.br
+Password: *
+ »   Error: Invalid credentials provided.
+ »
+ »   Error ID: unauthorized
+PS C:\xampp\htdocs\Projeto2-PHP> heroku login -i
+heroku: Enter your login credentials
+Email: vitiello.j1994@aluno.ifsc.edu.br
+Password: ******
+ »   Error: Invalid credentials provided.
+ »
+ »   Error ID: unauthorized
+PS C:\xampp\htdocs\Projeto2-PHP> HRKU-3b970d8f-c287-45f5-b597-01fc72852640
+HRKU-3b970d8f-c287-45f5-b597-01fc72852640 : O termo 'HRKU-3b970d8f-c287-45f5-b597-01fc72852640' não é reconhecido como nome de cmdlet, função, arquivo de 
+script ou programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, veja se o caminho está correto e tente novamente.
+No linha:1 caractere:1
++ HRKU-3b970d8f-c287-45f5-b597-01fc72852640
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (HRKU-3b970d8f-c...97-01fc72852640:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\xampp\htdocs\Projeto2-PHP> heroku login -i
+heroku: Enter your login credentials
+Email: vitiello.j1994@aluno.aluno.ifsc.edu.br
+Password: *****************************************
+Logged in as vitiello.j1994@aluno.ifsc.edu.br
+PS C:\xampp\htdocs\Projeto2-PHP> heroku auth:whoami
+vitiello.j1994@aluno.ifsc.edu.br
+PS C:\xampp\htdocs\Projeto2-PHP> heroku create sitedecreche
+Creating ⬢ sitedecreche... !
+ »   Error: To create an app, verify your account by adding payment information. Verify now at https://heroku.com/verify Learn more at 
+ »   https://devcenter.heroku.com/articles/account-verification
+ »
+ »   Error ID: verification_required
+PS C:\xampp\htdocs\Projeto2-PHP> heroku create sitedecreche
+Creating ⬢ sitedecreche... done
+https://sitedecreche-1936e28d4ef4.herokuapp.com/ | https://git.heroku.com/sitedecreche.git
+PS C:\xampp\htdocs\Projeto2-PHP> git remote -v
+heroku  https://git.heroku.com/sitedecreche.git (fetch)
+heroku  https://git.heroku.com/sitedecreche.git (push)
+origin  https://github.com/vitiellojules/projetotcc.git (fetch)
+origin  https://github.com/vitiellojules/projetotcc.git (push)
+PS C:\xampp\htdocs\Projeto2-PHP> heroku git:remote -a sitedecrech
+ »   Error: Couldn't find that app.
+ »
+ »   Error ID: not_found
+PS C:\xampp\htdocs\Projeto2-PHP> heroku git:remote -a sitedecreche
+set git remote heroku to https://git.heroku.com/sitedecreche.git
+PS C:\xampp\htdocs\Projeto2-PHP> git add .
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m " site de creche "
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git status
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m "trabalho   site de creche"             
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        10/12/2024     14:24                .vscode
+da----        10/12/2024     14:24                preschool
+da----        08/12/2024     23:00                SQL File
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add .
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m " site de creche"                       
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git status
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git rev-parse --is-inside-work-tree
+true
+PS C:\xampp\htdocs\Projeto2-PHP> git add preschool/
+PS C:\xampp\htdocs\Projeto2-PHP> git add README.md
+PS C:\xampp\htdocs\Projeto2-PHP> git init
+Reinitialized existing Git repository in C:/xampp/htdocs/Projeto2-PHP/.git/
+PS C:\xampp\htdocs\Projeto2-PHP> git add .
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m " site de creche"
+>>
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m " site de creche"
+>>
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m " site de creche"
+>> git status
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> dir preschool
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP\preschool
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+da----        10/12/2024     14:24                admin
+da----        10/12/2024     14:24                css
+da----        10/12/2024     14:24                dist
+da----        10/12/2024     14:24                img
+da----        10/12/2024     14:24                includes
+da----        10/12/2024     14:24                js
+da----        10/12/2024     14:24                lib
+da----        10/12/2024     14:24                plugins
+da----        10/12/2024     14:24                scss
+-a----        29/10/2024     12:55           4492 about.php
+-a----        29/10/2024     12:54          11955 classes.php
+-a----        23/11/2024     19:44           5095 contact.php
+-a----        23/11/2024     20:38          10167 enrollment.php
+-a----        31/10/2024     14:02          16419 index.php
+-a----        16/12/2024     20:00           8729 visit.php
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add preschool/somefile.php
+fatal: pathspec 'preschool/somefile.php' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> git add preschool/index.php
+PS C:\xampp\htdocs\Projeto2-PHP> git status
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git add preschool/index.php
+PS C:\xampp\htdocs\Projeto2-PHP> git status
+On branch nova-funcionalidade
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   preschool/index.php
+
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m " site de creche"
+[nova-funcionalidade a5d4209]  site de creche
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\xampp\htdocs\Projeto2-PHP> git add .
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m "Adicionando todas as alterações"
+On branch nova-funcionalidade
+nothing to commit, working tree clean
+PS C:\xampp\htdocs\Projeto2-PHP> git push heroku nova-funcionalidade:main
+Enumerating objects: 2387, done.
+Counting objects: 100% (2387/2387), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2255/2255), done.
+Writing objects: 100% (2387/2387), 14.78 MiB | 2.58 MiB/s, done.
+Total 2387 (delta 495), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (495/495), done.
+remote: Updated 2117 paths from 7e9a49c
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote:  !     No default language could be detected for this app.
+remote:                         HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
+remote:                         See https://devcenter.heroku.com/articles/buildpacks
+remote:
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to sitedecreche.
+remote:
+To https://git.heroku.com/sitedecreche.git
+ ! [remote rejected] nova-funcionalidade -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/sitedecreche.git'
+PS C:\xampp\htdocs\Projeto2-PHP> git branch
+  main
+* nova-funcionalidade
+PS C:\xampp\htdocs\Projeto2-PHP> git push heroku nova-funcionalidade:main
+Enumerating objects: 2387, done.
+Counting objects: 100% (2387/2387), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2255/2255), done.
+Writing objects: 100% (2387/2387), 14.78 MiB | 2.83 MiB/s, done.
+Total 2387 (delta 495), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (495/495), done.
+remote: Updated 2117 paths from 7e9a49c
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Determining which buildpack to use for this app
+remote:  !     No default language could be detected for this app.
+remote:                         HINT: This occurs when Heroku cannot detect the buildpack to use for this application automatically.
+remote:                         See https://devcenter.heroku.com/articles/buildpacks
+remote:
+remote:  !     Push failed
+remote:  !
+remote:  ! ## Warning - The same version of this code has already been built: a5d42098178b5c91df91e1ded2ebc6704c8acfe5
+remote:  !
+remote:  ! We have detected that you have triggered a build from source code with version a5d42098178b5c91df91e1ded2ebc6704c8acfe5
+remote:  ! at least twice. One common cause of this behavior is attempting to deploy code from a different branch.
+remote:  !
+remote:  ! If you are developing on a branch and deploying via git you must run:
+remote:  !
+remote:  !     git push heroku <branchname>:main
+remote:  !
+remote:  ! This article goes into details on the behavior:
+remote:  !   https://devcenter.heroku.com/articles/duplicate-build-version
+remote:
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to sitedecreche.
+remote:
+To https://git.heroku.com/sitedecreche.git
+ ! [remote rejected] nova-funcionalidade -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/sitedecreche.git'
+PS C:\xampp\htdocs\Projeto2-PHP> heroku open
+    Error: spawn UNKNOWN
+    Code: UNKNOWN
+PS C:\xampp\htdocs\Projeto2-PHP> heroku buildpacks:set heroku/php
+Buildpack set. Next release on sitedecreche will use heroku/php.
+Run git push heroku main to create a new release using this buildpack.
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        08/12/2024     23:00                SQL File
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        08/12/2024     23:00                SQL File
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        13/01/2025     22:56                SQL File
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        13/01/2025     22:56                SQL File
+-a----        13/01/2025     23:00             62 composer.json.txt
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        13/01/2025     22:56                SQL File
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        13/01/2025     22:56                SQL File
+-a----        13/01/2025     23:06              0 composer.json.txt
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        13/01/2025     22:56                SQL File
+-a----        13/01/2025     23:06              0 composer.json.txt
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        13/01/2025     23:11                SQL File
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+fatal: pathspec 'composer.json' did not match any files
+PS C:\xampp\htdocs\Projeto2-PHP> dir
+
+
+    Diretório: C:\xampp\htdocs\Projeto2-PHP
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        13/01/2025     22:37                .vscode
+da----        10/12/2024     14:24                preschool
+da----        13/01/2025     23:11                SQL File
+-a----        13/01/2025     23:18             62 composer.json
+-a----        17/09/2024     02:56            548 Reademe.txt
+-a----        14/12/2024     22:58             31 README.md
+
+
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.json
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m "Adicionando composer.json para o Heroku"
+[nova-funcionalidade 38ce741] Adicionando composer.json para o Heroku
+ 2 files changed, 19 insertions(+)
+ create mode 100644 .vscode/launch.json
+ create mode 100644 composer.json
+PS C:\xampp\htdocs\Projeto2-PHP> git push heroku nova-funcionalidade:main
+Enumerating objects: 2392, done.
+Counting objects: 100% (2392/2392), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2260/2260), done.
+Writing objects: 100% (2392/2392), 14.78 MiB | 2.59 MiB/s, done.
+Total 2392 (delta 497), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (497/497), done.
+remote: Updated 2119 paths from e0129da
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Using buildpack: heroku/php
+remote: -----> PHP app detected
+remote:
+remote:  !     ERROR: No 'composer.lock' found!
+remote:  !     
+remote:  !     A 'composer.lock' file was not found in your project, but there
+remote:  !     is a 'composer.json' file with dependencies inside 'require'.
+remote:  !     
+remote:  !     The lock file is required in order to guarantee reliable and
+remote:  !     reproducible installation of dependencies across platforms and
+remote:  !     deploys. You must follow the Composer best practice of having
+remote:  !     your lock file under version control in order to deploy. The
+remote:  !     lock file must not be in your '.gitignore'.
+remote:  !     
+remote:  !     Please perform the following steps locally on your computer to
+remote:  !     resolve this issue before attempting another deploy:
+remote:  !     1) remove 'composer.lock' from file '.gitignore', if present
+remote:  !     2) if no 'composer.lock' exists, run 'composer update'
+remote:  !     3) stage the lock file changes using 'git add composer.lock'
+remote:  !     4) if you edited '.gitignore', also run 'git add .gitignore'
+remote:  !     5) commit the change using 'git commit'
+remote:  !     
+remote:  !     Please remember to always keep your 'composer.lock' updated in
+remote:  !     lockstep with 'composer.json' to avoid common problems related
+remote:  !     to dependencies during collaboration and deployment.
+remote:  !     
+remote:  !     Please refer to the Composer documentation for further details:
+remote:  !     https://getcomposer.org/doc/
+remote:  !     https://getcomposer.org/doc/01-basic-usage.md
+remote: 
+remote:  !     Push rejected, failed to compile PHP app.
+remote: 
+remote:  !     Push failed
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to sitedecreche.
+remote:
+To https://git.heroku.com/sitedecreche.git
+ ! [remote rejected] nova-funcionalidade -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/sitedecreche.git'
+PS C:\xampp\htdocs\Projeto2-PHP> git push heroku nova-funcionalidade:main
+Enumerating objects: 2392, done.
+Counting objects: 100% (2392/2392), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2260/2260), done.
+Writing objects: 100% (2392/2392), 14.74 MiB | 2.64 MiB/s, done.
+Total 2392 (delta 497), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (497/497), done.
+remote: Updated 2119 paths from e0129da
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Using buildpack: heroku/php
+remote: -----> PHP app detected
+remote:
+remote:  !     ERROR: No 'composer.lock' found!
+remote:  !     
+remote:  !     A 'composer.lock' file was not found in your project, but there
+remote:  !     is a 'composer.json' file with dependencies inside 'require'.
+remote:  !     
+remote:  !     The lock file is required in order to guarantee reliable and
+remote:  !     reproducible installation of dependencies across platforms and
+remote:  !     deploys. You must follow the Composer best practice of having
+remote:  !     your lock file under version control in order to deploy. The
+remote:  !     lock file must not be in your '.gitignore'.
+remote:  !     
+remote:  !     Please perform the following steps locally on your computer to
+remote:  !     resolve this issue before attempting another deploy:
+remote:  !     1) remove 'composer.lock' from file '.gitignore', if present
+remote:  !     2) if no 'composer.lock' exists, run 'composer update'
+remote:  !     3) stage the lock file changes using 'git add composer.lock'
+remote:  !     4) if you edited '.gitignore', also run 'git add .gitignore'
+remote:  !     5) commit the change using 'git commit'
+remote:  !     
+remote:  !     Please remember to always keep your 'composer.lock' updated in
+remote:  !     lockstep with 'composer.json' to avoid common problems related
+remote:  !     to dependencies during collaboration and deployment.
+remote:  !     
+remote:  !     Please refer to the Composer documentation for further details:
+remote:  !     https://getcomposer.org/doc/
+remote:  !     https://getcomposer.org/doc/01-basic-usage.md
+remote: 
+remote:  !     Push rejected, failed to compile PHP app.
+remote: 
+remote:  !     Push failed
+remote:  !
+remote:  ! ## Warning - The same version of this code has already been built: 38ce741a8991ab84e3ae742cb4fd46f1717f05a5
+remote:  !
+remote:  ! We have detected that you have triggered a build from source code with version 38ce741a8991ab84e3ae742cb4fd46f1717f05a5
+remote:  ! at least twice. One common cause of this behavior is attempting to deploy code from a different branch.
+remote:  !
+remote:  ! If you are developing on a branch and deploying via git you must run:
+remote:  !
+remote:  !     git push heroku <branchname>:main
+remote:  !
+remote:  ! This article goes into details on the behavior:
+remote:  !   https://devcenter.heroku.com/articles/duplicate-build-version
+remote:
+remote: Verifying deploy...
+remote:
+remote: !       Push rejected to sitedecreche.
+remote:
+To https://git.heroku.com/sitedecreche.git
+ ! [remote rejected] nova-funcionalidade -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/sitedecreche.git'
+PS C:\xampp\htdocs\Projeto2-PHP> cd C:\xampp\htdocs\Projeto2-PHP
+PS C:\xampp\htdocs\Projeto2-PHP> composer install
+No composer.lock file present. Updating dependencies to latest instead of installing from lock file. See https://getcomposer.org/install for more information.                                                                                                                                                          
+Loading composer repositories with package information
+Updating dependencies
+Nothing to modify in lock file
+Writing lock file
+Installing dependencies from lock file (including require-dev)
+Nothing to install, update or remove
+Generating autoload files
+PS C:\xampp\htdocs\Projeto2-PHP> git add composer.lock
+PS C:\xampp\htdocs\Projeto2-PHP> git commit -m "Adicionando composer.lock para o Heroku"
+[nova-funcionalidade 8b91f21] Adicionando composer.lock para o Heroku
+ 1 file changed, 20 insertions(+)
+ create mode 100644 composer.lock
+PS C:\xampp\htdocs\Projeto2-PHP> git push heroku nova-funcionalidade:main
+Enumerating objects: 2395, done.
+Counting objects: 100% (2395/2395), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2263/2263), done.
+Writing objects: 100% (2395/2395), 14.74 MiB | 2.60 MiB/s, done.
+Total 2395 (delta 497), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (497/497), done.
+remote: Updated 2120 paths from 20d02e8
+remote: Compressing source files... done.
+remote: Building source:
+remote: 
+remote: -----> Building on the Heroku-24 stack
+remote: -----> Using buildpack: heroku/php
+remote: -----> PHP app detected
+remote: -----> Bootstrapping...
+remote: -----> Preparing platform package installation...
+remote: -----> Installing platform packages...
+remote:        - php (8.4.2)
+remote:        - apache (2.4.62)
+remote:        - composer (2.8.4)
+remote:        - nginx (1.26.2)
+remote: -----> Installing dependencies...
+remote:        Composer version 2.8.4 2024-12-11 11:57:47
+remote:        Installing dependencies from lock file
+remote:        Verifying lock file contents can be installed on current platform.
+remote:        Nothing to install, update or remove
+remote:        Generating optimized autoload files
+remote: -----> Preparing runtime environment...
+remote:        NOTICE: No Procfile, using 'web: heroku-php-apache2'.
+remote: -----> Checking for additional extensions to install...
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 37.3M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://sitedecreche-1936e28d4ef4.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/sitedecreche.git
+ * [new branch]      nova-funcionalidade -> main
+PS C:\xampp\htdocs\Projeto2-PHP> web: heroku-php-apache2
+web: : O termo 'web:' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique a grafia do nome ou, se um caminho 
+tiver sido incluído, veja se o caminho está correto e tente novamente.
+No linha:1 caractere:1
++ web: heroku-php-apache2
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (web::String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\xampp\htdocs\Projeto2-PHP> heroku logs --tail
+2025-01-14T01:10:49.359618+00:00 app[api]: Initial release by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T01:10:49.359618+00:00 app[api]: Release v1 created by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T01:10:49.592669+00:00 app[api]: Enable Logplex by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T01:10:49.592669+00:00 app[api]: Release v2 created by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T01:30:41.000000+00:00 app[api]: Build started by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T01:30:46.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/0706b632-0672-4134-b420-66f6fad64d8a/activity/builds/3d4f1037-28fe-4548-859b-35ad39f4451a
+2025-01-14T01:31:11.025134+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=5975051b-6e01-4df8-ae32-e46634aae4fd fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:31:11.834400+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=1411c45f-08fa-4ff4-a210-8465f744af49 fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:31:57.238495+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=9bedc875-6632-4c88-89a4-b98d698fe018 fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:32:05.800459+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=21414289-3c5f-4274-8ef8-be9b495a9608 fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:32:06.097188+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=fa729882-43bc-4448-b317-f2ff4d6cb7cd fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:32:07.584379+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=b4cf7b75-e379-436e-897b-248bd640ccba fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:32:07.935909+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=55ffd9cb-b363-4d78-b7e6-9e366fc93b83 fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:33:32.000000+00:00 app[api]: Build started by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T01:33:49.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/0706b632-0672-4134-b420-66f6fad64d8a/activity/builds/61bd0553-74e4-48ba-9047-515ef69b9bf5
+2025-01-14T01:34:06.922482+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=01a6b3ae-e072-446e-8881-0b84f9f41a6c fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:34:07.658531+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=8ce2fd34-caeb-49ae-8ba6-6538f952327e fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T01:34:28.536707+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=3bb2f8ae-6645-4d95-a3b0-3e977bf6c27b fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T02:12:53.803085+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=868ba74c-13fa-4fa2-9d63-186da0f96368 fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T02:12:54.700450+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=3346b4af-1ea8-4031-9d4d-c6e039262654 fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T02:12:55.946004+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=c6ee189c-97e4-41b3-8134-187007088d3e fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T02:12:56.173826+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=8f06a125-3348-415c-8ad8-535e62de3571 fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T02:12:58.438769+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=d594c516-1819-4682-9792-509ac4dfdb5c fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T02:12:58.654968+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=df92a28c-f392-4992-b799-7358a9989f7b fwd="179.223.203.140" dyno= connect= service= status=502 bytes= protocol=https
+2025-01-14T02:20:32.000000+00:00 app[api]: Build started by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T02:20:38.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/0706b632-0672-4134-b420-66f6fad64d8a/activity/builds/c545c04e-ca0b-452b-89b3-1fa639583253
+2025-01-14T02:48:33.000000+00:00 app[api]: Build started by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T02:48:39.000000+00:00 app[api]: Build failed -- check your build output: https://dashboard.heroku.com/apps/0706b632-0672-4134-b420-66f6fad64d8a/activity/builds/3a1d739e-3b19-4e06-bdc4-ea9451ab1cf8
+2025-01-14T02:50:13.000000+00:00 app[api]: Build started by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T02:50:26.503602+00:00 app[api]: Deploy 8b91f21e by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T02:50:26.503602+00:00 app[api]: Release v3 created by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T02:50:26.519045+00:00 app[api]: Scaled to web@1:Basic by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T02:50:27.000000+00:00 app[api]: Build succeeded
+2025-01-14T02:50:28.326174+00:00 heroku[web.1]: Starting process with command `heroku-php-apache2`
+2025-01-14T02:50:29.581645+00:00 app[web.1]: Available RAM is 512M Bytes
+2025-01-14T02:50:29.581686+00:00 app[web.1]: PHP memory_limit is 128M Bytes
+2025-01-14T02:50:29.589643+00:00 app[web.1]: Starting php-fpm with 4 workers...
+2025-01-14T02:50:29.691016+00:00 app[web.1]: Starting httpd...
+2025-01-14T02:50:30.031133+00:00 heroku[web.1]: State changed from starting to up
+2025-01-14T02:51:48.219822+00:00 app[web.1]: [Tue Jan 14 02:51:48.219414 2025] [autoindex:error] [pid 170:tid 174] [client 10.1.33.79:13507] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:51:48.219891+00:00 app[web.1]: 10.1.33.79 - - [14/Jan/2025:02:51:48 +0000] "GET / HTTP/1.1" 403 199 "-" "WhatsApp/2.23.20.0
+2025-01-14T02:51:48.220026+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=9ab9aa00-6195-4014-b9cb-4525a0d403a7 fwd="179.223.203.140" dyno=web.1 connect=0ms service=1ms status=403 bytes=363 protocol=https
+2025-01-14T02:51:51.724361+00:00 app[web.1]: [Tue Jan 14 02:51:51.724030 2025] [autoindex:error] [pid 175:tid 199] [client 10.1.9.69:11353] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:51:51.724463+00:00 app[web.1]: 10.1.9.69 - - [14/Jan/2025:02:51:51 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-14T02:51:51.724638+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=f6e1bbb2-c428-4448-bb35-53a49a989d90 fwd="179.223.203.140" dyno=web.1 connect=0ms service=1ms status=403 bytes=363 protocol=https
+2025-01-14T02:51:52.118448+00:00 app[web.1]: 10.1.9.69 - - [14/Jan/2025:02:51:52 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://sitedecreche-1936e28d4ef4.herokuapp.com/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-14T02:51:52.118659+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=6e42a621-67d5-4fee-81e6-81462acd4da2 fwd="179.223.203.140" dyno=web.1 connect=0ms service=1ms status=404 bytes=360 protocol=https
+2025-01-14T02:52:04.850447+00:00 app[web.1]: [Tue Jan 14 02:52:04.850144 2025] [autoindex:error] [pid 171:tid 189] [client 10.1.87.8:11255] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:52:04.850554+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=bf185c36-8882-4b93-b346-f3671e1904ee fwd="179.223.203.140" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T02:52:04.850558+00:00 app[web.1]: 10.1.87.8 - - [14/Jan/2025:02:52:04 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T02:52:05.222989+00:00 app[web.1]: 10.1.87.8 - - [14/Jan/2025:02:52:05 +0000] "GET /favicon.ico HTTP/1.1" 404 196 "https://sitedecreche-1936e28d4ef4.herokuapp.com/" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T02:52:05.223172+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=cc493fc0-fdfb-4a5b-b0b1-5baf270e1697 fwd="179.223.203.140" dyno=web.1 connect=0ms service=0ms status=404 bytes=360 protocol=https
+2025-01-14T02:52:10.772058+00:00 app[web.1]: [Tue Jan 14 02:52:10.771703 2025] [autoindex:error] [pid 171:tid 192] [client 10.1.87.8:12295] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:52:10.772138+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=0748cc65-80b6-43c0-8bac-687e47f6c2d8 fwd="179.223.203.140" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T02:52:10.772141+00:00 app[web.1]: 10.1.87.8 - - [14/Jan/2025:02:52:10 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T02:52:12.477739+00:00 app[web.1]: [Tue Jan 14 02:52:12.477445 2025] [autoindex:error] [pid 171:tid 195] [client 10.1.87.8:11697] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:52:12.477848+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=aa33ecf2-cdec-4783-ab11-b8dd181d392d fwd="179.223.203.140" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T02:52:12.477850+00:00 app[web.1]: 10.1.87.8 - - [14/Jan/2025:02:52:12 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T02:52:19.864528+00:00 app[web.1]: [Tue Jan 14 02:52:19.864229 2025] [autoindex:error] [pid 175:tid 210] [client 10.1.87.8:24485] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:52:19.864634+00:00 app[web.1]: 10.1.87.8 - - [14/Jan/2025:02:52:19 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T02:52:19.864788+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=87eae903-ffc9-40c9-92b8-b40ac8773dd2 fwd="179.223.203.140" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T02:52:21.411887+00:00 app[web.1]: [Tue Jan 14 02:52:21.411597 2025] [autoindex:error] [pid 175:tid 217] [client 10.1.87.8:12243] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:52:21.411994+00:00 app[web.1]: 10.1.87.8 - - [14/Jan/2025:02:52:21 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T02:52:21.411998+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=65f22a1d-ae94-4768-8c11-48cb0797b8ab fwd="179.223.203.140" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T02:57:45.402502+00:00 app[web.1]: [Tue Jan 14 02:57:45.402185 2025] [autoindex:error] [pid 171:tid 203] [client 10.1.6.105:11197] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T02:57:45.402594+00:00 app[web.1]: 10.1.6.105 - - [14/Jan/2025:02:57:45 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T02:57:45.402692+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=1d5ec0ed-1987-40af-81dd-8bc5d177bdd8 fwd="177.51.86.149" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T03:00:06.777833+00:00 app[web.1]: [Tue Jan 14 03:00:06.777524 2025] [autoindex:error] [pid 171:tid 211] [client 10.1.6.45:13597] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T03:00:06.777934+00:00 app[web.1]: 10.1.6.45 - - [14/Jan/2025:03:00:06 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T03:00:06.778082+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=1b988d4f-60e9-4717-9f0d-eb5751760973 fwd="177.51.86.149" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T03:00:21.557393+00:00 app[web.1]: [Tue Jan 14 03:00:21.557023 2025] [autoindex:error] [pid 171:tid 216] [client 10.1.6.45:28587] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T03:00:21.557502+00:00 app[web.1]: 10.1.6.45 - - [14/Jan/2025:03:00:21 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T03:00:21.557539+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=23e77baa-c581-4137-a32b-369fec4a91f4 fwd="177.51.86.149" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T03:00:32.357273+00:00 app[web.1]: [Tue Jan 14 03:00:32.356904 2025] [autoindex:error] [pid 175:tid 228] [client 10.1.6.45:35067] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T03:00:32.357364+00:00 app[web.1]: 10.1.6.45 - - [14/Jan/2025:03:00:32 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T03:00:32.357514+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=33130c8e-a781-4626-ab26-bc67cf514580 fwd="177.51.86.149" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T03:00:38.003318+00:00 app[web.1]: [Tue Jan 14 03:00:38.002953 2025] [autoindex:error] [pid 175:tid 233] [client 10.1.6.45:18923] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T03:00:38.003501+00:00 app[web.1]: 10.1.6.45 - - [14/Jan/2025:03:00:38 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Mobile Safari/537.36
+2025-01-14T03:00:38.003604+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=acd46fac-92d6-4798-b740-bebb5ea2de5b fwd="177.51.86.149" dyno=web.1 connect=1ms service=1ms status=403 bytes=363 protocol=https
+2025-01-14T03:51:26.050476+00:00 heroku[router]: at=info method=GET path="/" host=sitedecreche-1936e28d4ef4.herokuapp.com request_id=0582d1f0-880d-49d9-b81f-c42e13c2a18b fwd="179.223.203.140" dyno=web.1 connect=0ms service=0ms status=403 bytes=363 protocol=https
+2025-01-14T03:51:26.050373+00:00 app[web.1]: [Tue Jan 14 03:51:26.049917 2025] [autoindex:error] [pid 175:tid 205] [client 10.1.84.12:11051] AH01276: Cannot serve directory /app/: No matching DirectoryIndex (index.php,index.html,index.htm) found, and server-generated directory index forbidden by Options directive
+2025-01-14T03:51:26.050500+00:00 app[web.1]: 10.1.84.12 - - [14/Jan/2025:03:51:26 +0000] "GET / HTTP/1.1" 403 199 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+2025-01-14T03:52:12.815129+00:00 app[api]: Starting process with command `console` by user vitiello.j1994@aluno.ifsc.edu.br
+2025-01-14T03:52:15.356229+00:00 heroku[run.7967]: State changed from starting to up
+2025-01-14T03:52:18.472607+00:00 heroku[run.7967]: Process exited with status 127
+2025-01-14T03:52:18.499861+00:00 heroku[run.7967]: State changed from up to complete

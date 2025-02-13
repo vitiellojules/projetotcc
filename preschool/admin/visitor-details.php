@@ -121,7 +121,7 @@ while($result=mysqli_fetch_array($query)){
                   <tr>
     <th>WhatsApp</th>
     <td colspan="3">
-        <a href="https://wa.me/55<?php echo $result['whatsapp']; ?>" target="_blank" class="btn btn-success mt-2">
+        <a href="https://wa.me/55<?php echo $result['whatsapp']; ?>?text=ola" target="_blank" class="btn btn-success mt-2">
             <i class="fab fa-whatsapp"></i> Entre em Contato pelo WhatsApp (<?php echo $result['whatsapp']; ?>)
         </a>
     </td>

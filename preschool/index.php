@@ -320,7 +320,7 @@ while($row=mysqli_fetch_array($ret)){
 <script src="lib/waypoints/waypoints.min.js"></script>
 <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-<!-- Javascript do Template -->
+<!-- Javascript do Template     testando deploy  -->
 <script src="js/main.js"></script>
 </body>
 

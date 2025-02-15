@@ -1,4 +1,5 @@
 <?php session_start();
+
 // Conexão com o Banco de Dados
 include('includes/config.php');
 // Validando a Sessão

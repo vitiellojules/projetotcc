@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^teste$ index.php [L]

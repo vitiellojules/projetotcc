@@ -1,0 +1,4 @@
+# Ignorar diretórios e arquivos de sistema
+AppData/
+**/AppData/
+**/Documents/
